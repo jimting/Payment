@@ -25,7 +25,7 @@ public class PaymentController {
 	
 	@ApiOperation(value = "購買物品", notes = "成功購買就回傳success")
 	@CrossOrigin(origins = "*")
-	@RequestMapping(value = "/payment", method = RequestMethod.GET)
+	@RequestMapping(value = "payment", method = RequestMethod.GET)
     public String payment()
     {
     	return "success";
